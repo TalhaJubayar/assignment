@@ -1,0 +1,319 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width {
+	max-width: 1300px;
+	margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+/* Header CSS */
+.header-menu {
+	background-color: #22c3a3;
+    padding: 8px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.header-left{
+    float: left;
+    width: 30%;
+
+}
+.header-left a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	line-height: 65px;
+    transition: .5s;
+}
+.header-left a:hover{
+    color: black;
+}
+
+.menu-right{
+    float: right;
+    width: 70%;
+
+}
+.menu-right ul{
+    line-height: 65px;
+
+}
+.header-menu .fixed-width{
+    position: relative;
+}
+.menu-bar {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+    display: none;
+}
+.menu-bar span{
+    color: #fff;
+    font-size: 30px;
+}
+.menu-right ul li{
+    display: inline-block;
+}
+.menu-right ul li a{
+    color: #fff;
+	display:inline-block;
+	text-decoration: none;
+    padding: 0px 15px;
+	font-size: 15px;
+    transition: .4s;
+}
+.menu-right ul li a:hover{
+    color:black;
+}
+.banner{
+    background-image: url(https://i.ibb.co/YdxQ7gj/178134199-505905787442083-5975638775884129539-n.jpg);
+    padding: 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+    .banner-caption h1 {
+        
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 50px;
+        transition: .4s;
+        margin-bottom: 30px;
+        
+    }
+
+    
+    .banner-caption  p{
+       
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 22px;
+        transition: .4s;
+    }
+
+.banner-caption a{
+	color:#fff;
+	border: 1px solid #fff;
+	padding: 10px 22px;
+	text-decoration: none;
+	font-size: 18px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.banner-caption a:hover{
+    color: aqua;
+    background-color:black;
+    border: 1px solid black;
+}
+/* About Section */
+.about{
+    margin-top: 60px;
+}
+.about h2{
+    margin-bottom: 20px;
+    color:#413e3e;
+    font-size: 40px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #555555;
+}
+/* service Section */
+
+
+.service {
+	margin-top: 70px;
+    padding: 20px 0;
+}
+.service-item {
+	float: left;
+	width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
+	transition: .8s;
+	text-align: center;
+   
+   
+}
+.service-item span{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    font-size: 40px;
+    color:#0bb89c;
+    line-height: 60px;
+    transition: .4s;
+    
+  
+}
+.service-item h2{
+    font-size: 23px;
+    color:#555555;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.service-item p{
+    color:#555555;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: .4s;
+}
+.service-item:hover{
+    background-color: #0bb89c;
+}
+.service-item:hover span{
+    color: black;
+    
+}
+.service-item:hover p{
+    color: #fff;
+}
+.service-item:hover h2{
+    color: #fff;
+}
+/* About2 Section */
+.about-2{
+    margin-top: 240px;
+    border-top: 2px solid #0dbf9b;
+    
+}
+.about-2 h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color:#555555;
+    font-size: 40px;
+}
+.about-2 p{
+    color:#555555;
+    font-size: 18px;
+    margin-bottom: 50px;
+}   
+.blog {
+	margin-top: 30px;
+}
+.blog-picture{
+    float: left;
+    width:45%;
+    
+}
+.blog-picture img {
+	width:562px;
+    height: auto;
+}
+
+.blog-right {
+	float: right;
+	width: 55%;
+    margin-top: 10px;
+   
+
+}
+.blog-item{
+    padding: 10px 0;
+    margin-left: 52px;
+   
+}
+.blog-item h2{
+    margin-bottom: 10px;
+    color: #555555;
+}
+.blog-item p{
+    color:#555555;
+}
+
+.contact-details {
+	background-color: #f6f6f6;
+	padding-top: 80px;
+    padding-bottom: 160px;
+    margin-top: 60px;
+    color: #555555;
+}
+.contact h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.contact p{
+    font-size: 18px;
+}
+.contact-data{
+    margin-top: 60px;
+}
+
+.location {
+	float: left;
+	width: 32%;
+	font-size: 17px;
+    line-height: 25px;
+    
+}
+.gmail {
+	float: left;
+	width: 32%;
+	
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.phone {
+	float: left;
+	width: 32%;
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.footer {
+	background-color: #22c3a3;
+	margin-top: 0px;
+}
+
+.social-menu li{
+    display: inline-block;
+}
+
+.social-menu  li a:hover{
+    color:black;
+}
+.social-menu li a{
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    padding:  25px 15px ;
+    transition: .4s;
+}
+
+.footer-bottom{
+    color: #514f4b;
+    background-color:#222222;
+    padding: 16px 0;
+    font-size: 17px;
+}
